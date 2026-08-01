@@ -1,7 +1,27 @@
 aid: pento
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pento.png
 name: Pento
-description: Pento is a company surfaced as a portfolio company of point-nine, seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pento was a European (UK/Danish) automated payroll platform that let companies
+  run payroll, sync with accounting and HR tools, and pay employees in a few
+  clicks; it was backed by Point Nine and Seedcamp. As of this enrichment pass
+  the pento.io domain (HTTP 301) redirects to HiBob (www.hibob.com) and serves
+  HiBob's HR-software marketing site with no remaining Pento branding, indicating
+  Pento's payroll product has been folded into HiBob. There is no independent
+  Pento developer program, API, or documentation surface to enrich; any live
+  payroll API now lives under HiBob. This profile is retained as a network lead
+  with its acquisition/redirect status recorded.
 url: https://raw.githubusercontent.com/api-evangelist/pento/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +30,19 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: hibob
+x-domain-redirect: https://www.hibob.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payroll
+- Human Resources
+- HR
+- Fintech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +51,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.pento.io
+  url: https://pento.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    pento.io 301-redirects to www.hibob.com (HiBob); Pento acquired/folded into
+    HiBob, no independent API surface. No artifacts created (would misattribute
+    HiBob's surface to Pento).
