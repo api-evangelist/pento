@@ -1,0 +1,29 @@
+# Front Door AI Index — pento — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: pento
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: pento.io
+  final_host: www.hibob.com
+  ownership: inherited
+  owner: pento
+  shares_host_with: null
+  inherited_from: www.hibob.com
+  verdict: scored
+  score: null
+  host_score: 17
+  density: null
+  words: 2904
+  tiers:
+    agentic: 1
+    core: 16
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 16
+    smart: 3
+    MCP: 1
+    automation: 1
+    intelligence: 1
